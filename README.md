@@ -1,5 +1,5 @@
 
-![Logo](.image/logo-no-background.png)
+![](.image/logo-no-background.png)
 
 
 # JavaScript Lab
