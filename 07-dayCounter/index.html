@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Counter</title>
+    <link rel="stylesheet" href="../assets/output.css">
+</head>
+
+<body class="">
+    <div class="w-[100%] h-[100vh] bg-gradient-to-b from-slate-900 to-zinc-900 pt-10">
+        <h2 class="text-3xl text-white text-center font-bold">Event Reminder</h2>
+        <div id="form" class="w-[400px] h-[600px] m-auto mt-5">
+            <form class="flex flex-col" action="">
+                <div class="flex flex-row gap-5">
+                    <label for="">Nombre del evento:</label>
+                    <input class="border border-red-950 w-[2rem]" type="text" id="eventName">
+                </div>
+                <div class="flex flex-row gap-5">
+                    <label for="">Fecha del evento:</label>
+                    <input class="border border-red-950 w-[10rem]" type="date" id="eventDate">
+                </div>
+                <div class="flex flex-row gap-5">
+                    <button class="bg-gray-800 transition hover:bg-gray-950 text-white font-bold py-2 px-4 rounded"
+                        type="submit" id="btn-form">Add Event</button>
+                </div>
+            </form>
+        </div>
+        <div id="eventContainer" class="">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

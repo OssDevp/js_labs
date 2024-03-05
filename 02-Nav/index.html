@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo" id="logo">My Site</h1>
+                <button class="menu-toggle" aria-label="Toggle Menu" id="menu-toggle">&#9776;</button>
+                <ul class="menu" id="menu">
+                    <li><a href="#" id="link-home">Home</a></li>
+                    <li><a href="#" id="link-about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn" id="link-services">Services</a>
+                        <div class="dropdown-content">
+                            <a href="#">Service 1</a>
+                            <a href="#">Service 2</a>
+                            <a href="#">Service 3</a>
+                        </div>
+                    </li>
+                    <li><a href="#" id="link-contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenido principal de tu página aquí -->
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
